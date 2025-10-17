@@ -170,6 +170,9 @@ These universal rules govern the complex application of the IDM, ensuring consis
 
 ### **6.1 Institutional Structure**
 
+> **Note:** The organizational entities described in this section (DWS Foundation and DWS Cert) represent the intended governance structure of the Digital Wellness Standard.  
+> Formal establishment and legal incorporation of these bodies are in progress.
+
 The **Digital Wellness Standard (DWS)** is governed through a dual institutional model that balances ethical independence with operational efficiency.
 
 - The **DWS Foundation**, a non-profit entity, is responsible for maintaining the integrity, methodology, and continuous development of the **IDM framework**. It acts as the custodian of the standard’s principles, ethical foundations, and public transparency.
@@ -202,11 +205,14 @@ Unauthorized use of the **IDM mark, seal, or certification claims** without form
 
 ---
 
-### **6.4 Appeals and Continuous Improvement**
+### 6.4 Appeals and Continuous Improvement
 
-Applicants and certified organizations have the right to appeal audit results through a transparent, structured process managed by the **DWS Appeals Committee**. Appeals are reviewed independently from auditing entities to guarantee procedural fairness.
+Applicants and organizations seeking certification under the IDM framework will have the right to appeal audit results through a transparent, structured process to be managed by the **DWS Appeals Committee** once established.  
+Appeals will be reviewed independently from auditing entities to ensure procedural fairness and maintain confidence in the integrity of the certification process.
 
-The **DWS Governance Board** implements a **continuous improvement protocol**, updating the standard periodically based on empirical evidence, user data, and emerging research in digital well-being and ethical design practices.
+The **Digital Wellness Standard (DWS)** will implement a **Continuous Improvement Protocol** under the future **Governance Board**, ensuring that the IDM standard remains scientifically rigorous and socially relevant.  
+Revisions to scoring criteria or methodologies will be version-controlled, publicly documented, and subject to stakeholder consultation.  
+Updates will reflect new empirical evidence, user data, and emerging research in digital well-being and ethical design practices.
 
 ---
 
