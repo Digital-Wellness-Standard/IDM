@@ -101,16 +101,18 @@ This category penalizes patterns designed to exploit gambling psychology and abs
 | **D2**     | **Gamification & Abstraction of Value** <br> Real monetary value is **obscured by abstracting it** into 'points,' 'coins,' 'credits,' or 'gems.' This is often paired with casino-like audiovisual feedback (e.g., confetti, explosions, jingles) upon completing a transaction.           | **+10**             | **Cognitive Disassociation.** This pattern is designed to disassociate the user from the real-world value of their money, **reducing the natural aversion to loss**. This encourages riskier and more frequent financial behavior.                                   |
 | **D3**     | **"Near-Miss" Feedback Loops** <br> The interface provides visual or auditory feedback that implies the user was **"close" to a major success** (e.g., a trading graph that reverses at the last second, slot reels that almost align).                                                    | **+10**             | **Exploitation of the Gambler's Fallacy.** This is a core mechanism in casino and slot machine design. It reinforces the erroneous belief that a win is imminent, directly driving compulsive repetition.                                                            |
 
-### **IDM Score Translation: The Digital Nutrition Label**
+### **IDM Score Translation and Certification Tiers**
 
-The final IDM score (0-100) translates directly into the consumer-facing **Digital Nutrition Label** categories:
+The IDM scoring system is divided into four tiers, representing increasing levels of design manipulation risk and decreasing levels of user autonomy. Only products that achieve a **Platinum** or **Gold** score qualify for official certification under the **Digital Wellness Standard (DWS)**. Products in the **Yellow** and **Red** tiers receive public warning labels instead of certifications.
 
-| IDM Score    | Digital Nutrition Label | Recommended Use        |
-| :----------- | :---------------------- | :--------------------- |
-| **0 – 20**   | **LOW Risk**            | Use Freely             |
-| **21 – 50**  | **MODERATE Risk**       | Conscious Use          |
-| **51 – 75**  | **HIGH Risk**           | Use with Strict Limits |
-| **76 – 100** | **EXTREME Risk**        | Minimize or Avoid Use  |
+| **Score Range** | **Tier**                                    | **Badge Type**    | **Certification Status** | **User Experience Message**                                                  |
+| --------------- | ------------------------------------------- | ----------------- | ------------------------ | ---------------------------------------------------------------------------- |
+| **0 – 25**      | **PLATINUM / EXEMPLARY ETHICAL DESIGN**     | Green Round Medal | ✅ Certified             | "Outstanding respect for user autonomy."                                     |
+| **26 – 50**     | **GOLD / RESPONSIBLE DESIGN**               | Gold Round Medal  | ✅ Certified             | "Meets global standards for ethical and transparent digital experiences."    |
+| **51 – 75**     | **YELLOW WARNING / HIGH MANIPULATION RISK** | Yellow Alert Icon | ⚠️ Warning Label         | "Contains manipulative patterns that may negatively impact user well-being." |
+| **76 – 100**    | **RED WARNING / EXTREME MANIPULATION RISK** | Red Alert Icon    | ⚠️ Warning Label         | "High-risk design. Uses coercive or manipulative patterns."                  |
+
+This structure rewards integrity while ensuring transparency. Ethical design is celebrated through certification, while manipulative design is disclosed through clear, public labeling — empowering users and guiding companies toward responsible innovation.
 
 ---
 
