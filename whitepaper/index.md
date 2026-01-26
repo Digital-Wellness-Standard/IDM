@@ -18,8 +18,8 @@ The IDM serves as a quantitative basis for the **Digital Nutrition Label**—a s
 ### **Core Principles of the IDM:**
 
 1.  **Objectivity:** The IDM is based on the measurable _presence_ of specific design elements (e.g., algorithmic feeds, persistent red badge notifications, _infinite scroll_), not on subjective user experience.
-2.  **Transparency:** The full 100-point scoring methodology is **Open Source (CC BY-NC-SA)**, allowing for public scrutiny, academic review, and community contribution, ensuring its ongoing rigor and neutrality.
-3.  **Actionability:** A high IDM score (maximum 100 points) indicates a higher degree of manipulative design. This score provides product teams with a clear roadmap for implementing ethical design changes to reduce user harm.
+2.  **Transparency:** The full scoring methodology is **Open Source (CC BY-NC-SA)**, allowing for public scrutiny, academic review, and community contribution, ensuring its ongoing rigor and neutrality.
+3.  **Actionability:** A high IDM score indicates a higher degree of manipulative design. This score provides product teams with a clear roadmap for implementing ethical design changes to reduce user harm.
 
 ## **Call to Action**
 
@@ -29,23 +29,21 @@ The Digital Wellness Standard calls upon app developers, policymakers, and consu
 
 # **IDM Methodology: Design Manipulation Index Scoring (v1.0)**
 
-The **Design Manipulation Index (IDM)** is a **100-point scale** designed to quantify the inherent risk of psychological exploitation within a digital product’s design architecture. The maximum score of 100 points indicates the highest risk of design exploitation, where features are demonstrably optimized for addiction and time-on-screen over user well-being.
+The **Design Manipulation Index (IDM)** is a **Cumulative Risk Metric** designed to quantify the inherent risk of psychological exploitation within a digital product's design architecture. Unlike traditional linear scales, the IDM does not have a theoretical maximum score; instead, it measures the **Total Toxic Load** of the application. A higher score indicates a higher density of manipulative patterns, where features are demonstrably optimized for addiction and time-on-screen over user well-being.
 
-The IDM score is divided into four core categories, each weighted according to a **Hierarchy of Harm** that prioritizes the severity of the psychological exploit, the difficulty for the user to retain control, and the impact on real-world well-being.
+The IDM score is aggregated from four core categories, weighted according to a **Hierarchy of Harm** that prioritizes the severity of the psychological exploit, the difficulty for the user to retain control, and the impact on real-world well-being.
 
-The methodological choice to prioritize **Exploitation (Cause)** over **Impact (Consequence)** is fundamental. The scoring hierarchy is justified by the principles of autonomy and ethical engineering, which require that the standard penalize the **intent and architecture of coercion**, rather than the vulnerability or consequence experienced by any individual user. The rationale for this precise weighting is established in the following section.
-
-## **The Hierarchy of Harm: Ponderation Criteria and Rationale**
+## **The Hierarchy of Harm: Weighting Criteria and Rationale**
 
 The philosophical foundation of the IDM is built on the **Inverse Hierarchy**, which states that an ethical design standard must penalize the **cause** of manipulation, rather than the ultimate **consequence**. While the public often focuses on the outcome (negative impact), an auditing standard must penalize the design's _intent_.
 
-The most common defense for high-scoring design patterns (e.g., A1 Algorithmic Feed) is that they provide a "better, more fluid user experience." The IDM's scoring methodology rejects this defense by penalizing **coercion**, not **functionality**. A design is deemed coercive when it maximizes the platform's core metric (e.g., Time-on-Screen) at the direct expense of user autonomy.
+The most common defense for high-scoring design patterns (e.g., A1 Algorithmic Auto-Play Feed) is that they provide a "better, more fluid user experience." The IDM's scoring methodology rejects this defense by penalizing **coercion**, not **functionality**. A design is deemed coercive when it maximizes the platform's core metric (e.g., Time-on-Screen) at the direct expense of user autonomy.
 
 The score distribution is based on the following three criteria, which are ranked in a strict order of weighting priority:
 
 | Order             | Criterion                                        | Rationale: Why This Weight is Justified                                                                                                                                                                                                                                                                                                                                     |
 | :---------------- | :----------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1st Primary**   | **Severity of Systemic Behavioral Exploitation** | **Root Cause & Intent:** This is the most serious ethical violation. Ponderation is maximized here because the criterion measures the scientific potency of the design pattern to generate compulsion (e.g., **Variable Ratio Reinforcement**), which is the primary driver of risk and addiction.                                                                          |
+| **1st Primary**   | **Severity of Systemic Behavioral Exploitation** | **Root Cause & Intent:** This is the most serious ethical violation. Weighting is maximized here because the criterion measures the scientific potency of the design pattern to generate compulsion (e.g., **Variable Ratio Reinforcement**), which is the primary driver of risk and addiction.                                                                          |
 | **2nd Secondary** | **Erosion of User Autonomy and Agency**          | **Loss of Choice & Coercion:** This criterion is prioritized because it penalizes the elimination of choice. High scores are assigned when a pattern is **architecture-inherent** (e.g., impossible to turn off), directly penalizing the loss of **Agency**, which multiplies the inherent risk. A truly positive user experience offers choices, it does not remove them. |
 | **3rd Tertiary**  | **Disruption of External Life Functionality**    | **Consequence & Symptom:** This criterion measures the final **consequence** (e.g., sleep, concentration loss). While critical, the score remains tertiary because it is the _symptom_ that the design exploitation (1st) and the loss of autonomy (2nd) have succeeded. The IDM primarily punishes the engineering failure, not just the resulting damage.                 |
 
@@ -58,61 +56,70 @@ The score is justified by scientific evidence demonstrating a conflict of intere
 
 By establishing this clear hierarchy based on **Cause → Coercion → Consequence**, the IDM ensures that the point structure is a scientific reflection of design risk, rather than a subjective measure of personal impact. The IDM holds that a truly "good" user experience respects a user's boundaries and autonomy. Designs that require active scientific manipulation and the elimination of choice to achieve high engagement cannot, by the definition of this standard, be considered ethical.
 
+### **Criteria for Weighting: The 3 Levels of Violation**
+
+To ensure objectivity, the IDM assigns points based on the **"Cost of Resistance"**—the amount of cognitive or physical effort required by the user to maintain autonomy against the interface.
+
+* **LEVEL 1: INTERFERENCE (10 - 15 pts)**
+    * **Definition:** The design distracts or induces stress but does not block action. The user can ignore it with low effort.
+    * *Examples:* Visual Badges, FOMO text, Confirmshaming.
+
+* **LEVEL 2: COERCION (20 - 30 pts)**
+    * **Definition:** The design eliminates options or erects artificial barriers. The user must exert active effort to leave or stop.
+    * *Examples:* Infinite Scroll (coercion of consumption), Hard-to-delete accounts (coercion of exit).
+
+* **LEVEL 3: SYSTEMIC HIJACK (60+ pts)**
+    * **Definition:** The user's will is supplanted by the system. The default state is automatic execution without prior consent.
+    * *Examples:* Algorithmic Auto-Play feeds, Predatory Probability Loops (loot boxes).
+
 ---
 
 ## **The IDM Quantifiable Scoring Framework**
 
-The following categories translate the **Hierarchy of Harm** into the Design Manipulation Index (IDM)'s quantifiable scoring system. Each point penalty listed in the subsequent tables is directly justified by the criteria defined in the preceding section. The 100 total points are distributed across four primary domains of digital product design, ranked by their capacity for psychological exploitation.
+The following categories translate the **Hierarchy of Harm** into the Design Manipulation Index (IDM)'s quantifiable scoring system. Each point penalty listed in the subsequent tables is directly justified by the criteria defined in the preceding section.
 
-### **Category A. Systemic Behavioral Exploitation (Maximum 40 pts)**
+### **Category A. Systemic Behavioral Exploitation (The Engine)**
 
-This category penalizes the single most potent mechanism for behavioral exploitation: the Variable Ratio Reinforcement engine.
+| ID | Pattern | Weight (Pts) | Criterion & Justification |
+| :--- | :--- | :--- | :--- |
+| **A1** | **Algorithmic Auto-Play Feed** | **+60** | **Level 3 (Systemic Hijack).** Applied if the primary content feed defaults to an algorithmic system with **Auto-Play** or **Auto-Load** behavior, executing consumption without an explicit "start" command from the user. |
+| **A2** | **Predatory Probability Loops / Loot Boxes** | **+60** | **Level 3 (Systemic Hijack).** Applied if the product employs **Variable Ratio Reinforcement (VRR)** through randomized reward mechanisms (e.g., loot boxes, gacha systems) that exploit compulsion loops tied to real or virtual currency. |
 
-| Pattern ID | Description (The Objective Rule)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Penalization (Pts.) | Scientific Justification for Ponderation                                                                                                                                                                                                                                                                                                                      |
-| :--------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **A1**     | **Systemic Variable Ratio Reinforcement (VRR) Engine** <br><br> The +40 point penalty is applied if the application's primary engagement loop meets **at least one** of the following criteria: <br><br> **(Content Criterion - Feed):** A primary content feed (social, video, news) defaults to an algorithmic system **AND** does not provide a readily visible chronological option (the '3-click rule'). <br><br> **OR** <br><br> **(Chance Criterion - Loop):** A core gameplay or financial loop (e.g., slot machine, loot box, gamified trading) offers unpredictable rewards (financial, points, or items) tied to a repetitive user action. | **+40**             | **Systemic Architecture Hijack.** Receives maximum points because it implements a **"Variable Ratio Reinforcement Schedule,"** a mechanism proven to be the most potent for creating behavioral addiction. This pattern is systemic to the design's core, cannot be avoided by the user, and represents the **most serious ethical violation (Criterion 1)**. |
+### **Category B. Notification Systems and Urgency (The Trigger)**
 
-### **Category B. Notification Systems and Urgency Exploitation (Maximum 20 pts)**
+| ID | Pattern | Weight (Pts) | Criterion & Justification |
+| :--- | :--- | :--- | :--- |
+| **B1** | **Persistent Intrusion (>3/day)** | **+20** | **Level 2 (Coercion).** High-frequency interruption of external life functionality. |
+| **B2** | **Visual Anxiety Badges (Red Dots)** | **+10** | **Level 1 (Interference).** Exploits the Zeigarnik Effect to trigger compulsive opening. |
+| **B3** | **FOMO / Social Anxiety Alerts** | **+15** | **Level 1 (Interference).** Leveraging social insecurity ("Your friends are waiting") to force immediate engagement. |
+| **B4** | **Gamified Guilt (Streaks)** | **+10** | **Level 1 (Interference).** Using loss aversion language ("Streak in danger!") to punish disconnection. |
 
-This category assesses alerts and visual indicators designed to compel compulsive return to the application.
+### **Category C. Social Comparison and Boundary Erosion (The Wear)**
 
-| Pattern ID | Description (The Objective Rule)                                                                                                                                                                                                                               | Penalization (Pts.) | Scientific Justification for Ponderation                                                                                                                                                                                                                                 |
-| :--------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **B1**     | **Persistent, Intrusion-Based Notifications** <br> The application sends, by default, **more than three (3) non-essential alerts per day** (excluding direct one-to-one human messages or calls).                                                              | **+10**             | **Real-World Interruption.** This mechanism directly interrupts the user's life outside the application (work, sleep, focus), constituting a persistent **attention hijacking**. It forces involuntary attention shifts, justifying a high score.                        |
-| **B2**     | **"Red Dot" Visual Badges** <br> The application utilizes a numeric indicator or bright/red visual badge on the app icon or navigation tabs that persists until clicked, with **no distinction** between urgent personal messages and passive content updates. | **+5**              | **Compulsive Closure Trigger.** This pattern leverages the **Zeigarnik Effect**, the psychological tendency to experience intrusive thoughts about uncompleted tasks, creating a cognitive burden that compels the user to "clear" the notification state.               |
-| **B3**     | **Gamified/Guilt-Based Return Notifications** <br> Notification text includes phrases that explicitly leverage **loss aversion** or **guilt** (e.g., "Streak in Danger!", "You missed X's activity," "We Miss You!").                                          | **+3**              | **Specific Pressure Tactic.** These are effective for re-engagement but are less frequent and less disruptive than B1 or B2. The user can easily ignore the text without opening the app, justifying a lower score.                                                      |
-| **B4**     | **Direct FOMO/Connection Loss Alerts** <br> Alerts specifically communicate a perceived loss of social connection or a missed event ("Your friend X just tagged you," "You missed this live event").                                                           | **+2**              | **Exploits Social Vulnerability.** The design directly targets the **Fear of Missing Out (FOMO)**, which is defined as the anxiety that an exciting or interesting event may currently be happening elsewhere. This is a powerful driver of compulsive social media use. |
+| ID | Pattern | Weight (Pts) | Criterion & Justification |
+| :--- | :--- | :--- | :--- |
+| **C1** | **Infinite Scrolling (No Stopping Cue)** | **+20** | **Level 2 (Coercion).** Removes the natural stopping point, forcing the user to exert active effort to stop consuming. |
+| **C2** | **Body Modification Filters** | **+15** | **Level 1 (Interference).** Promotes dysmorphia and unrealistic standards by default. |
+| **C3** | **Visible Public Metrics** | **+10** | **Level 1 (Interference).** Public display of "Likes" or "Views" to trigger social comparison. |
 
-### **Category C. Social Comparison and Boundary Erosion (Maximum 10 pts)**
+### **Category D. Financial and Retention Exploitation (The Prison)**
 
-| Pattern ID | Description (The Objective Rule)                                                                                                                                                                                                                       | Penalization (Pts.) | Scientific Justification for Ponderation                                                                                                                                                                                                                                        |
-| :--------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **C1**     | **Infinite Scrolling Mechanism** <br> The primary content feed loads automatically upon reaching the bottom, **without requiring a manual action** (e.g., a "Load More" button) to continue consumption.                                               | **+4**              | **Erosion of Stopping Cues.** The score is lower than category A because the feature is predictable and **does not interrupt the user's external life**. The user retains the physical ability to stop consuming the content at any point, unlike the compulsion created by A1. |
-| **C2**     | **Visible Social Counters** <br> The total count of "Likes," "Views," or "Follower Counts" is prominently and **visibly displayed by default** beneath the primary content in the feed view.                                                           | **+3**              | **Low-Impact Comparison.** While it fuels social validation, a psychological vulnerability linked to reward-center activation in the brain, it is a static feature. It enables **upward social comparison**, which is correlated with negative well-being.                      |
-| **C3**     | **Prominent Image/Body Modification Filters** <br> The app's default camera or editing mode offers easily accessible filters that **digitally alter the shape of the face, bone structure, or physical figure** (excluding color or lighting filters). | **+3**              | **Body Image Distortion.** This pattern is scored low as its primary harm is **social comparison and body image distress**, not maximizing time on-screen. It is an optional feature within the app's workflow.                                                                 |
-
-### **Category D. Financial and Risk Exploitation (Maximum 30 pts)**
-
-This category penalizes patterns designed to exploit gambling psychology and abstract the value of real money.
-
-| Pattern ID | Description (The Objective Rule)                                                                                                                                                                                                                                                           | Penalization (Pts.) | Scientific Justification for Ponderation                                                                                                                                                                                                                             |
-| :--------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **D1**     | **Asymmetric Friction (Deposit vs. Withdrawal)** <br> Depositing funds is a near-frictionless (≤ 2 clicks) process, while **withdrawing funds is deliberately obscured** (≥ 3 clicks) or requires slow, high-friction manual steps (e.g., 24-hour verification holds, contacting support). | **+10**             | **Dark Pattern ("Roach Motel").** This is a coercive design that penalizes the loss of **Agency (Criterion 2)**. It creates an intentional barrier to retrieve user property while removing all barriers to spending it, demonstrating a clear conflict of interest. |
-| **D2**     | **Gamification & Abstraction of Value** <br> Real monetary value is **obscured by abstracting it** into 'points,' 'coins,' 'credits,' or 'gems.' This is often paired with casino-like audiovisual feedback (e.g., confetti, explosions, jingles) upon completing a transaction.           | **+10**             | **Cognitive Disassociation.** This pattern is designed to disassociate the user from the real-world value of their money, **reducing the natural aversion to loss**. This encourages riskier and more frequent financial behavior.                                   |
-| **D3**     | **"Near-Miss" Feedback Loops** <br> The interface provides visual or auditory feedback that implies the user was **"close" to a major success** (e.g., a trading graph that reverses at the last second, slot reels that almost align).                                                    | **+10**             | **Exploitation of the Gambler's Fallacy.** This is a core mechanism in casino and slot machine design. It reinforces the erroneous belief that a win is imminent, directly driving compulsive repetition.                                                            |
+| ID | Pattern | Weight (Pts) | Criterion & Justification |
+| :--- | :--- | :--- | :--- |
+| **D1** | **Asymmetric Friction (Roach Motel)** | **+30** | **Level 2 (Coercion).** It is significantly harder to delete an account or unsubscribe than it is to sign up (Simulated barriers). |
+| **D2** | **Abstraction of Value (Gems/Coins)** | **+15** | **Level 1 (Interference).** Disassociating real money from digital spend. |
+| **D3** | **Near-Miss / Gambler's Fallacy** | **+15** | **Level 1 (Interference).** Visualizing "almost wins" to drive compulsive repetition. |
+| **D4** | **Confirmshaming** | **+10** | **Level 1 (Interference).** Using manipulative language in exit flows ("No, I prefer to be bored"). |
 
 ### **IDM Score Translation and Certification Tiers**
 
-The IDM scoring system is divided into four tiers, representing increasing levels of design manipulation risk and decreasing levels of user autonomy. Only products that achieve a **Platinum** or **Gold** score qualify for official certification under the **Digital Wellness Standard (DWS)**. Products in the **Yellow** and **Red** tiers receive public warning labels instead of certifications.
-
-| **Score Range** | **Tier**                                    | **Badge Type**    | **Certification Status** | **User Experience Message**                                                  |
-| --------------- | ------------------------------------------- | ----------------- | ------------------------ | ---------------------------------------------------------------------------- |
-| **0 – 25**      | **PLATINUM / EXEMPLARY ETHICAL DESIGN**     | Green Round Medal | ✅ Certified             | "Outstanding respect for user autonomy."                                     |
-| **26 – 50**     | **GOLD / RESPONSIBLE DESIGN**               | Gold Round Medal  | ✅ Certified             | "Meets global standards for ethical and transparent digital experiences."    |
-| **51 – 75**     | **YELLOW WARNING / HIGH MANIPULATION RISK** | Yellow Alert Icon | ⚠️ Warning Label         | "Contains manipulative patterns that may negatively impact user well-being." |
-| **76 – 100**    | **RED WARNING / EXTREME MANIPULATION RISK** | Red Alert Icon    | ⚠️ Warning Label         | "High-risk design. Uses coercive or manipulative patterns."                  |
-
-This structure rewards integrity while ensuring transparency. Ethical design is celebrated through certification, while manipulative design is disclosed through clear, public labeling — empowering users and guiding companies toward responsible innovation.
+| **Score Range** | **Tier** | **Status** | **User Meaning** |
+| :--- | :--- | :--- | :--- |
+| **0 – 20** | **PLATINUM** | ✅ Certified | **Safe Space.** Respects autonomy completely. |
+| **21 – 50** | **GOLD** | ✅ Certified | **Responsible.** Minor friction, generally ethical. |
+| **51 – 90** | **YELLOW** | ⚠️ Warning | **High Risk.** Contains habit-forming patterns. |
+| **91 – 130** | **RED** | ⚠️ Warning | **Manipulative.** Hostile design architecture. |
+| **131+** | **BIOHAZARD** | ⛔ BLACKLIST | **Toxic.** Predatory design (e.g., Slot Machines, Aggressive Social Feeds). |
 
 ---
 
@@ -120,7 +127,7 @@ This structure rewards integrity while ensuring transparency. Ethical design is 
 
 This protocol establishes the objective, universal, and replicable rules under which an audit of the **Design Manipulation Index (IDM)** must be conducted. This protocol serves as the **Open Source** standard for any entity seeking to apply the IDM methodology.
 
-### **1. Auditor Prerequisites and Environment**
+## **1. Auditor Prerequisites and Environment**
 
 This section defines the conditions necessary for an audit to be **methodologically valid** and free from bias.
 
@@ -129,25 +136,25 @@ This section defines the conditions necessary for an audit to be **methodologica
 - **Multi-Platform Sampling Protocol:** The full IDM audit must be conducted on the **latest public version** of the application across all relevant mainstream platforms where it is deployed (e.g., **iOS**, **Android**, and **Web/Desktop** if applicable).
   - _Final Scoring Rule (Worst-Case Principle):_ The final score awarded to the application will be the **highest score obtained across all audited platforms**. If a design flaw is present on Android but mitigated on iOS, the score for the more manipulative platform will be the official IDM score.
 
-### **2. Dimensional Auditing Protocol**
+## **2. Dimensional Auditing Protocol**
 
 To ensure the IDM score reflects the maximum inherent risk within an application's architecture, the audit must be conducted across multiple user and context dimensions. The final score is governed by the **"Worst-Case Design" Principle** applied across all dimensions.
 
-#### **A. Geographic Dimension (Multi-Region Audit)**
+### **A. Geographic Dimension (Multi-Region Audit)**
 
 Given regulatory and cultural fragmentation, the auditor must verify the application's behavior in, at a minimum, **three key geographic markets** (e.g., North America, European Union, and a major non-Western market), using VPNs or other localization methods.
 
 - **Scoring Rule:** If a manipulative pattern is active in one region but disabled in another (due to laws such as GDPR), the penalty **is applied**. The final IDM score will be the **highest score** obtained in any of the audited regions.
 
-#### **B. Demographic Dimension (Multi-Profile Audit)**
+### **B. Demographic Dimension (Multi-Profile Audit)**
 
 Given that platforms often apply different rules and algorithms to users of different ages, the audit must be conducted using, at a minimum, two distinct account profiles:
 
 - **Adult User Profile:** An account created with an age of **25 or older**.
 - **Minor User Profile:** An account created with the minimum age permitted by the platform (typically **13-17 years old**).
-- **Scoring Rule:** If the audit reveals that the experience for the minor's profile yields a higher IDM score (e.g., more aggressive algorithmic feeds, fewer visible privacy controls), that **higher score will become the application's official score**. This builds upon the principles outlined for sensitive populations.
+- **Scoring Rule:** If the audit reveals that the experience for the minor's profile yields a higher IDM score (e.g., more aggressive algorithmic feeds, fewer visible privacy controls), that **higher score will become the application's official score**. The IDM prioritizes the protection of vulnerable demographics, particularly minors, as a core principle of this standard.
 
-### **3. The Three-Step Verification Protocol**
+## **3. The Three-Step Verification Protocol**
 
 This is the universal process for translating a design pattern into an objective score.
 
@@ -157,28 +164,28 @@ This is the universal process for translating a design pattern into an objective
 | **Step 2: Evidence Capture**      | If the pattern is confirmed, the auditor captures **irrefutable proof** (e.g., timestamped screenshot or 10-second screen recording) to justify the application of penalty points. | Evidence is time-stamped and stored in the audit file.               |
 | **Step 3: Point Assignment**      | Points are assigned based **solely on the published IDM scoring table**. No subjective adjustment of the score is permitted.                                                       | The final IDM score is the sum of all confirmed penalties.           |
 
-### **4. Rules for Application and Methodological Consistency**
+## **4. Rules for Application and Methodological Consistency**
 
 These universal rules govern the complex application of the IDM, ensuring consistency across time and geographical markets.
 
-#### **4.1 Rule on Latent Features (_Feature Flags_ / A/B Testing)**
+### **4.1 Rule on Latent Features (_Feature Flags_ / A/B Testing)**
 
 - **Capacity for Manipulation:** If any pattern from the IDM Scoring Tables is present in the codebase and is **remotely activated** via A/B testing or _feature flags_ for **any subset of the user base**, the full IDM penalty for that pattern shall be applied. The risk is scored based on the design's **active intent**.
 - **Rule of Code Inactivity:** If a manipulative pattern has been **disabled, inactive, and excluded from all A/B tests** for a period exceeding twelve (12) months, the penalty for that pattern may be waived.
 
-#### **4.2 Rule of Contextual Exclusion (Safety and Health)**
+### **4.2 Rule of Contextual Exclusion (Safety and Health)**
 
 - **Exclusion for Core Functionality:** IDM penalties **shall not be applied** if the **intrusion or alert** is the **explicit and primary function** of the application and is directly related to **physical safety or user health** (e.g., medication dosing, emergency alerts).
 
-#### **4.3 Protocol for the "Clear Exit" (Autonomy Test)**
+### **4.3 Protocol for the "Clear Exit" (Autonomy Test)**
 
 - **Erosion of Autonomy:** The penalty is confirmed if the low-risk option (e.g., the chronological feed or "messages only" mode) is **hidden or requires more than three clicks/taps** from the primary home screen. This protocol confirms the **deliberate degradation of autonomy** (Criterion 2), removing subjective judgment regarding perceived "better UX."
 
 ---
 
-# **Governance and Certification Framework**
+# **5. Governance and Certification Framework**
 
-### **6.1 Institutional Structure**
+## **5.1 Institutional Structure**
 
 > **Note:** The organizational entities described in this section (DWS Foundation and DWS Cert) represent the intended governance structure of the Digital Wellness Standard.
 > Formal establishment and legal incorporation of these bodies are in progress.
@@ -191,7 +198,7 @@ The **Digital Wellness Standard (DWS)** is governed through a dual institutional
 
 This structure ensures a clear division between the **standard-setting function** (non-profit) and the **implementation and certification function** (for-profit), preserving neutrality while enabling sustainable scalability.
 
-### **6.2 Oversight and Integrity**
+## **5.2 Oversight and Integrity**
 
 To safeguard the credibility and independence of the certification process, DWS enforces a multi-layered governance system:
 
@@ -199,7 +206,7 @@ To safeguard the credibility and independence of the certification process, DWS 
 - **Transparency and Accountability Policy** — all methodological updates, scoring changes, and certification criteria are publicly available and open to stakeholder consultation.
 - **Integrity Channel** — a public mechanism for reporting misconduct, manipulation, or ethical breaches related to certification or product scoring.
 
-### **6.3 Certification Authority and Licensing**
+## **5.3 Certification Authority and Licensing**
 
 The **Digital Wellness Standard (DWS)** retains **exclusive authority** to grant, suspend, or revoke official **IDM certifications**. Only DWS and entities **formally licensed** by DWS are authorized to perform official audits, evaluations, and issue certificates under the IDM framework.
 
@@ -207,7 +214,7 @@ Organizations or individuals may use the IDM methodology for internal, education
 
 Unauthorized use of the **IDM mark, seal, or certification claims** without formal approval from DWS is strictly prohibited and may result in legal enforcement.
 
-### **6.4 Appeals and Continuous Improvement**
+## **5.4 Appeals and Continuous Improvement**
 
 Applicants and certified organizations have the right to appeal audit results through a transparent, structured process managed by the **DWS Appeals Committee**. Appeals are reviewed independently from auditing entities to guarantee procedural fairness.
 
