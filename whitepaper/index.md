@@ -72,6 +72,8 @@ To ensure objectivity, the IDM assigns points based on the **"Cost of Resistance
     * **Definition:** The user's will is supplanted by the system. The default state is automatic execution without prior consent.
     * *Examples:* Algorithmic Auto-Play feeds, Predatory Probability Loops (loot boxes).
 
+> **Note on the Gap between Levels:** The jump from Level 2 (max 30 pts) to Level 3 (60+ pts) is intentional. It reflects a qualitative leap in severity: Level 2 patterns make it *harder* for the user to maintain autonomy, but the user retains the ability to resist. Level 3 patterns *remove the user from the decision loop entirely* — the system acts on their behalf without consent. This discontinuity in scoring ensures that truly systemic exploits are never conflated with aggressive-but-resistible friction.
+
 ---
 
 ## **The IDM Quantifiable Scoring Framework**
@@ -183,9 +185,9 @@ These universal rules govern the complex application of the IDM, ensuring consis
 
 ---
 
-# **5. Governance and Certification Framework**
+## **5. Governance and Certification Framework**
 
-## **5.1 Institutional Structure**
+### **5.1 Institutional Structure**
 
 > **Note:** The organizational entities described in this section (DWS Foundation and DWS Cert) represent the intended governance structure of the Digital Wellness Standard.
 > Formal establishment and legal incorporation of these bodies are in progress.
@@ -198,7 +200,7 @@ The **Digital Wellness Standard (DWS)** is governed through a dual institutional
 
 This structure ensures a clear division between the **standard-setting function** (non-profit) and the **implementation and certification function** (for-profit), preserving neutrality while enabling sustainable scalability.
 
-## **5.2 Oversight and Integrity**
+### **5.2 Oversight and Integrity**
 
 To safeguard the credibility and independence of the certification process, DWS enforces a multi-layered governance system:
 
@@ -206,7 +208,7 @@ To safeguard the credibility and independence of the certification process, DWS 
 - **Transparency and Accountability Policy** — all methodological updates, scoring changes, and certification criteria are publicly available and open to stakeholder consultation.
 - **Integrity Channel** — a public mechanism for reporting misconduct, manipulation, or ethical breaches related to certification or product scoring.
 
-## **5.3 Certification Authority and Licensing**
+### **5.3 Certification Authority and Licensing**
 
 The **Digital Wellness Standard (DWS)** retains **exclusive authority** to grant, suspend, or revoke official **IDM certifications**. Only DWS and entities **formally licensed** by DWS are authorized to perform official audits, evaluations, and issue certificates under the IDM framework.
 
@@ -214,7 +216,7 @@ Organizations or individuals may use the IDM methodology for internal, education
 
 Unauthorized use of the **IDM mark, seal, or certification claims** without formal approval from DWS is strictly prohibited and may result in legal enforcement.
 
-## **5.4 Appeals and Continuous Improvement**
+### **5.4 Appeals and Continuous Improvement**
 
 Applicants and certified organizations have the right to appeal audit results through a transparent, structured process managed by the **DWS Appeals Committee**. Appeals are reviewed independently from auditing entities to guarantee procedural fairness.
 
